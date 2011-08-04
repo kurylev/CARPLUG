@@ -10,7 +10,7 @@ body{
 	width:841px;
 	height:1038px;
 	margin:auto;
-	background:#c36;
+/*	background:#c36;*/
 	background-image: url(../pic/fon.jpg);
 	background-repeat:no-repeat;
 }
@@ -100,5 +100,42 @@ body{
 	opacity:0.4;
 	border:0;
 	padding:5px;
+}
+#zakaz{
+	position:absolute;
+	left:22px; top:270px;
+/*	bottom:0px; right:0px;*/
+	font-size:150%;
+	color:#000;
+	margin:0;
    }
-  
+#button_2{
+	position:absolute;
+	margin-top:-80px;
+	margin-left:22px;
+   }
+#bottom{
+	position:relative;
+	margin-top:40px;
+	margin-left:22px;
+	background:#f25;
+   }
+.cipher{
+	color:#fff;
+}
+.img_p{
+	position:absolute;
+	left:0px; top:20px;
+	margin:0;
+/*	padding-top:5px;*/
+}
+.p{
+	position:absolute;
+	left:18px; top:25px;
+	margin:0;
+	font-size:2.2em;
+	color:#000;
+}
+.zorro{
+	color:#cc0066;
+}  
