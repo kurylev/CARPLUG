@@ -71,6 +71,7 @@ body{
 	height:314px;
 	background:#fff;
 	opacity:0.32;
+-moz-opacity:0.32;
 	border-radius:14px;
 -webkit-border-radius:14px;
 -moz-border-radius:14px;
@@ -88,8 +89,8 @@ body{
 	
 }
 .colortext {
-    background-color: #373737; /* Цвет фона */
-    color: #fff; /* Цвет текста */
+	background-color: #373737; /* Цвет фона */
+	color: #fff; /* Цвет текста */
 	opacity:0.6;
 	border:0;
 	padding:5px;
@@ -113,29 +114,54 @@ body{
 	position:absolute;
 	margin-top:-80px;
 	margin-left:22px;
+	width:51px;
+	height:51px;
+	overflow:hidden;
    }
 #bottom{
 	position:relative;
 	margin-top:40px;
 	margin-left:22px;
-	background:#f25;
+/*	background:#f25;*/
    }
-.cipher{
-	color:#fff;
-}
-.img_p{
+/*.cipher{
+	color:#000;
+	vertical-align:middle;
+	font-size:2.2em;
+	margin-right="-5px";
+}*/
+/*.img_p{
 	position:absolute;
 	left:0px; top:20px;
 	margin:0;
-/*	padding-top:5px;*/
-}
+	padding-top:5px;
+}*/
 .p{
-	position:absolute;
-	left:18px; top:25px;
+/*	position:absolute;
+	left:18px; top:25px;*/
 	margin:0;
 	font-size:2.2em;
 	color:#000;
+	padding-left:15px;
 }
 .zorro{
 	color:#cc0066;
-}  
+}
+*td {
+	vertical-align:middle;
+}
+.img {
+	background-image:url(../pic/1.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	width:47px;
+	height:47px;
+	text-align:center;
+	color:#fff;
+	vertical-align:middle;
+	font-size:2.2em;
+}
+.tab{
+	border-spacing:0px 30px;
+	margin-top:-10px;
+}
