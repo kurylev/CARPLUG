@@ -1,5 +1,8 @@
+html, body, #container{
+	height:100%;
+}
 html{
-	background:#fff;
+	background:#9e9e9e;
 	font:12px tahoma, sans-serif;
 	color:#808080;
 }
@@ -7,161 +10,52 @@ body{
 	margin:0;
 }
 #container{
-	width:841px;
-	height:1038px;
+	width:1155px;
 	margin:auto;
-/*	background:#c36;*/
-	background-image: url(../pic/fon.jpg);
-	background-repeat:no-repeat;
+}
+#main{
+	overflow:hidden;
+	min-height:100%;
+	margin:0 0 -61px;
+	background:#fff;
 }
 #header{
-/*	width:841px;*/
-	height:47px;
-	margin:0;
-	padding-left:20px;
-	padding-right:44px;
+	position:relative;
+	height:128px;
 }
-#carplug{
+#logo{
+	float:left;
+	margin-top:37px;
+	margin-left:21px;
+}
+#diagnost{
 	float:left;
 	margin:0;
-	font:2em tahoma, sans-serif;
-	padding-top:5px;
-	color:#cc0066;
-	margin-right:500px;
-/*	background:#c36;*/
+	color:#000;
+	font:1em tahoma, sans-serif;
+	padding-top:34px;
+	padding-left:10px;
+	line-height:0.3em;
 }
-#carplug span{
-	color:#fff;
+#carbugs{
+	color:#ed1568;
+	font:3.5em tahoma, sans-serif;
+	text-transform:uppercase;
 }
-.number{
-/*	text-align:right;*/
+#diagnost span+span{
+	font:3.5em tahoma, sans-serif;
+	text-transform:lowercase;
+}
+#sluzba{
 	float:right;
-	color:#fff;
-/*	background:#c58;*/
 	margin:0;
-	padding-top:3px;
-}
-#left{
-	position:relative;
-	width:346px;
-	height:442px;
-	margin-left:22px;
-	margin-right:473px;
-/*	background:#f86;*/
-}
-#start{
-	font-size:180%;
-	color:#fff;
-	margin:25px 0 10px;
-}
-#left span{
-	color:#cc0066;
-}
-#registr{
-	position:absolute;
-	left:22px; top:85px;
-/*	bottom:100px; right:100px;*/
-	font-size:150%;
 	color:#000;
-	margin:0;
+	font:1em tahoma, sans-serif;
+	padding-top:34px;
+	padding-right:30px;
+	text-align:right;
+/*	line-height:0.3em;*/
 }
-#transp{
-/*	overflow:hidden;*/
-	width:346px;
-	height:314px;
-	background:#fff;
-	opacity:0.32;
--moz-opacity:0.32;
-	border-radius:14px;
--webkit-border-radius:14px;
--moz-border-radius:14px;
--khtml-border-radius:18px;
-}
-
-#form{
-	position:absolute;
-	left:22px; top:120px;
-/*	bottom:100px; right:100px;*/
-/*	font-size:150%;*/
-	color:#fff;
-	margin:0;/*
-	opacity:0.4;*/
-	
-}
-.colortext {
-	background-color: #373737; /* Цвет фона */
-	color: #fff; /* Цвет текста */
-	opacity:0.6;
-	border:0;
-	padding:5px;
-   }
-.colortext_2 {
-    background-color: #373737; /* Цвет фона */
-    color: #fff; /* Цвет текста */
-	opacity:0.4;
-	border:0;
-	padding:5px;
-}
-#zakaz{
-	position:absolute;
-	left:22px; top:270px;
-/*	bottom:0px; right:0px;*/
-	font-size:150%;
-	color:#000;
-	margin:0;
-   }
-#button_2{
-	position:absolute;
-	margin-top:-80px;
-	margin-left:22px;
-	width:51px;
-	height:51px;
-	overflow:hidden;
-   }
-#bottom{
-	position:relative;
-	margin-top:40px;
-	margin-left:22px;
-/*	background:#f25;*/
-   }
-/*.cipher{
-	color:#000;
-	vertical-align:middle;
-	font-size:2.2em;
-	margin-right="-5px";
-}*/
-/*.img_p{
-	position:absolute;
-	left:0px; top:20px;
-	margin:0;
-	padding-top:5px;
-}*/
-.p{
-/*	position:absolute;
-	left:18px; top:25px;*/
-	margin:0;
-	font-size:2.2em;
-	color:#000;
-	padding-left:15px;
-}
-.zorro{
-	color:#cc0066;
-}
-*td {
-	vertical-align:middle;
-}
-.img {
-	background-image:url(../pic/1.png);
-	background-repeat:no-repeat;
-	background-position:center;
-	width:47px;
-	height:47px;
-	text-align:center;
-	color:#fff;
-	vertical-align:middle;
-	font-size:2.2em;
-}
-.tab{
-	border-spacing:0px 30px;
-	margin-top:-10px;
+#sluzba span{
+	font:1.5em tahoma, sans-serif;
 }
