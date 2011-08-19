@@ -1,10 +1,42 @@
+@font-face {
+    font-family: HelveticaNeueCyrLight;
+    src: url(../fonts/helveticaneuecyr-light-webfont.eot);
+    src: url(../fonts/helveticaneuecyr-light-webfont.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/helveticaneuecyr-light-webfont.woff) format('woff'),
+         url(../fonts/helveticaneuecyr-light-webfont.ttf) format('truetype'),
+         url(../fonts/helveticaneuecyr-light-webfont.svg#HelveticaNeueCyrLight) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: HelveticaNeueCyrThin;
+    src: url(../fonts/helveticaneuecyr-thin-webfont.eot);
+    src: url(../fonts/helveticaneuecyr-thin-webfont.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/helveticaneuecyr-thin-webfont.woff) format('woff'),
+         url(../fonts/helveticaneuecyr-thin-webfont.ttf) format('truetype'),
+         url(../fonts/helveticaneuecyr-thin-webfont.svg#HelveticaNeueCyrThin) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: HelveticaNeueCyrRoman;
+    src: url(../fonts/helveticaneuecyr-roman-webfont.eot);
+    src: url(../fonts/helveticaneuecyr-roman-webfont.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/helveticaneuecyr-roman-webfont.woff) format('woff'),
+         url(../fonts/helveticaneuecyr-roman-webfont.ttf) format('truetype'),
+         url(../fonts/helveticaneuecyr-roman-webfont.svg#HelveticaNeueCyrRoman) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 html, body, #container{
 	height:100%;
 }
 html{
 	background:#9e9e9e;
 	font:12px tahoma, sans-serif;
-	color:#808080;
+	color:#676767;
 }
 body{
 	margin:0;
@@ -34,32 +66,34 @@ body{
 #diagnost{
 	float:left;
 	margin:0;
-	font:1em tahoma, sans-serif;
-	color:#000;
+	font:1em HelveticaNeueCyrLight;
+	color:#3b3735;
 	padding-top:34px;
 	padding-left:10px;
 	line-height:0.3em;
 }
 #carbugs{
-	font:3.5em tahoma, sans-serif;
+	font:3.5em HelveticaNeueCyrThin;
 	color:#ed1568;
 	text-transform:uppercase;
+	font-weight:bold;
 }
 #diagnost span+span{
-	font:3.5em tahoma, sans-serif;
+	font:3.5em HelveticaNeueCyrThin;
 	text-transform:lowercase;
+	font-weight:bold;
 }
 #sluzba{
 	float:right;
 	margin:0;
-	color:#000;
-	font:1.2em tahoma, sans-serif;
+	color:#3b3735;
+	font:1.2em HelveticaNeueCyrRoman;
 	padding-top:34px;
 	padding-right:30px;
 	text-align:right;
 }
 #sluzba span{
-	font:1.5em tahoma, sans-serif;
+	font:1.5em HelveticaNeueCyrRoman;
 }
 
 /*_____2______________________________*/
@@ -105,7 +139,7 @@ a:visited .button{
 	width:100%;
 	border-spacing:80px 0px;
 /*	border:2px solid #369;*/
-	font:1.6em tahoma, sans-serif;
+	font:1.6em HelveticaNeueCyrRoman;
 	text-align:right;
 	color:#fff;
 	margin-top:63px;
@@ -122,9 +156,9 @@ a:visited .button{
 	background-repeat:no-repeat;
 }
 #footer p{
-	font:0.9em tahoma, sans-serif;
+	font:0.9em HelveticaNeueCyrRoman;
 	color:#676767;
-	margin-top:35px;
+	margin-top:36px;
 	margin-left:20px;
 }
 
