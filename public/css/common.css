@@ -29,6 +29,7 @@
     font-style: normal;
 }
 
+/*_____________________________________________________*/
 
 html, body, #container{
 	height:100%;
@@ -116,23 +117,27 @@ body{
 	height:48px;
 	background-image: url(../img/button_s.png);
 	background-position:0 0;
+	background-repeat:no-repeat;
 	margin-top:-13px;
 	margin-left:8px;
+	zoom:1px;
 }
 .button.one{
 	margin-top:-24px;
+	zoom:1px;
 }
-a:active .button{
+/*a:active .button{
 	background-position:0 -100%;
 	}
 a:visited .button{
 	background-position:0 -100%;
-}
+}*/
 
 /*____table__________*/
 
 #menu td {
 	vertical-align:middle;
+	white-space: nowrap;
 /*	border:1px solid #369;*/
 }
 #menu table{
