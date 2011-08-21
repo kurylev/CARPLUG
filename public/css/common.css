@@ -61,17 +61,17 @@ body{
 }
 #logo{
 	float:left;
-	margin-top:37px;
-	margin-left:21px;
+	margin-top:38px;
+	margin-left:23px;
 }
 #diagnost{
 	float:left;
 	margin:0;
 	font:1em HelveticaNeueCyrLight;
+	line-height:0.4em;
 	color:#3b3735;
-	padding-top:34px;
-	padding-left:10px;
-	line-height:0.3em;
+	padding-top:39px;
+	padding-left:9px;
 }
 #carbugs{
 	font:3.5em HelveticaNeueCyrThin;
@@ -89,7 +89,7 @@ body{
 	margin:0;
 	color:#3b3735;
 	font:1.2em HelveticaNeueCyrRoman;
-	padding-top:34px;
+	padding-top:39px;
 	padding-right:30px;
 	text-align:right;
 }

@@ -29,6 +29,21 @@
     font-style: normal;
 }
 
+.button.one{
+	overflow:hidden;
+	position:absolute;
+	display:alighn-block;
+	width:49px;
+	height:48px;
+	background-image: url(../img/button_s.png);
+	background-position:0 100% !important;
+	background-repeat:no-repeat;
+	margin-top:-24px;
+	margin-left:8px;
+	zoom:1px;
+	
+}
+
 /*______________left__________________________*/
 
 #left{
@@ -49,6 +64,7 @@
 	font:1.2em HelveticaNeueCyrRoman;
 	text-decoration: none;
 	color:#ed1568;
+	border: none;
 }
 
 /*______________right_______________________*/
@@ -101,6 +117,7 @@ hr{
 	font:1em HelveticaNeueCyrRoman;
 	text-decoration: none;
 	color:#ed1568;
+	border: none;
 }
 
 /*_____table_2___________________________*/
@@ -129,6 +146,12 @@ hr{
 	border:0;
 	padding-left:10px;
 }
+
+.form:focus { 
+	outline: none; 
+}
+
+
 #but_3{
 	position:absolute;
 	margin-left:160px;
