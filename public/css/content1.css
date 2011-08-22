@@ -49,6 +49,10 @@
 #left{
 	float:left;
 	width:605px;
+	min-height:100%;
+	padding:0 0 100px;
+	overflow:auto;
+	background-color:#fff;
 }
 #left  img{
 	margin-top:65px;
@@ -73,6 +77,10 @@
 /*	width:545px;*/
 	float:right;
 	margin-left:-605px;
+	min-height:100%;
+	padding:0 0 100px;
+	overflow:auto;
+	background-color:#fff;
 /*	height:550px;*/
 }
 

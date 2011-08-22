@@ -50,6 +50,10 @@
 	float:left;
 	margin-left:245px;
 	margin-right:-235px;
+	min-height:100%;
+	padding:0 0 100px;
+	overflow:auto;
+	background-color:#fff;
 /*	background:#f58;*/
 }
 
@@ -98,6 +102,10 @@
 	float:right;
 	margin-top:84px;
 	margin-right:73px;
+	min-height:100%;
+	padding:0 0 100px;
+	background-color:#fff;
+	overflow:auto;
 /*	background:#f58;*/
 /*	height:58px;*/
 }
