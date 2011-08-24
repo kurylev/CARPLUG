@@ -50,9 +50,9 @@
 	float:left;
 	width:605px;
 	min-height:100%;
-	padding:0 0 100px;
-	overflow:auto;
-	background-color:#fff;
+/*	background-color:#ffcc33;*/
+/*  padding-bottom:32767px;
+  margin-bottom:-32767px;*/
 }
 #left  img{
 	margin-top:65px;
@@ -78,9 +78,9 @@
 	float:right;
 	margin-left:-605px;
 	min-height:100%;
-	padding:0 0 100px;
-	overflow:auto;
-	background-color:#fff;
+/*	background-color:#ccff66;*/
+/*  padding-bottom:32767px;
+  margin-bottom:-32767px;*/
 /*	height:550px;*/
 }
 
